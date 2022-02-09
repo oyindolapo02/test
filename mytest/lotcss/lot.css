@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.containers {
+  /* border: solid 2px red; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.cont-1 {
+  /* border: solid 2px yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  background-image: url("../lotimage/fabio-comparelli-696506-unsplash.jpg");
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.cont-2 {
+  /* border: solid 2px green; */
+  width: 50%;
+  padding: 0 20px;
+  background-color: white;
+}
+
+.cont-1 h3 {
+  color: white;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.text-container {
+  /* border: solid 2px purple; */
+  /* width: 50%; */
+  /* height: 70%; */
+  margin-top: 200px;
+  margin-left: 40px;
+  color: white;
+  /* margin: auto; */
+  /* display: flex;
+  justify-content: center;
+  align-content: center; */
+}
+
+.text-container h2 {
+  text-align: left;
+  margin: auto;
+  font-size: 300%;
+}
+
+.footer {
+  /* border: solid 2px blue; */
+  height: 100px;
+}
+
+.foot {
+  margin-top: 20px;
+}
+
+.foot li {
+  display: inline-block;
+}
+
+.foot a {
+  color: brown;
+  font-size: large;
+  text-decoration: none;
+}
+
+.foot a:hover {
+  color: rgb(126, 81, 81);
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.user-info input {
+  /* line-height: normal; */
+  width: 100%;
+  margin-bottom: 30px;
+  border: 0;
+  border-bottom: 1px solid gray;
+}
+
+.user-info button {
+  color: white;
+  border-radius: 15px;
+  background-color: brown;
+  margin-right: 30px;
+  width: 250px;
+  height: 50px;
+}
+
+.user-info a {
+  color: grey;
+  text-decoration: none;
+}
+
+.info {
+  color: grey;
+}
